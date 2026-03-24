@@ -204,10 +204,10 @@ This project demonstrates:
 - [ ] Email notification system
 
 ## Author
-[Your Name]  
+[Thaduri Venkatasai]  
 Quantitative Analyst / ETF Operations Specialist  
-LinkedIn: [Your Profile]  
-GitHub: [Your Repository]
+LinkedIn: [https://www.linkedin.com/in/venkata-sai-thaduri-37411b268?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BF5Hp9qycTJi62Nxcq75EKQ%3D%3D]  
+GitHub: [https://github.com/venkatasai365/etf-reconciliation-platform]
 
 ## License
 Proprietary - For demonstration purposes
