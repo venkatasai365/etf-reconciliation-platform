@@ -1,0 +1,5 @@
+Trade_Date,ETF_Ticker,Basket_ID,Security_ID,Quantity,Price,Valuation,Source
+2026-03-24,SPY,1,AAPL,150.0,185.75,27862.50,Internal
+2026-03-24,SPY,1,MSFT,120.0,420.30,50436.00,Internal
+2026-03-24,SPY,1,GOOGL,85.0,145.50,12367.50,Internal
+2026-03-24,SPY,1,CASH,1250.50,1.00,1250.50,Internal

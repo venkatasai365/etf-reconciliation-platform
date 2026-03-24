@@ -1,0 +1,6 @@
+Transaction_Date,Transaction_ID,Transaction_Type,ETF_Ticker,Basket_Units,AP_Name,Cash_Component,Settlement_Date
+2026-03-24,CR001,CREATE,SPY,50000,Authorized_Participant_A,1250.5,2026-03-25
+2026-03-24,CR002,CREATE,SPY,25000,Authorized_Participant_B,625.25,2026-03-25
+2026-03-24,RD001,REDEEM,SPY,30000,Authorized_Participant_A,750.3,2026-03-25
+2026-03-24,CR003,CREATE,SPY,45000,Authorized_Participant_C,1125.45,2026-03-25
+2026-03-24,RD002,REDEEM,SPY,20000,Authorized_Participant_B,500.2,2026-03-25

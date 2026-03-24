@@ -1,0 +1,54 @@
+
+╔════════════════════════════════════════════════════════════════════╗
+║         OPTIONS GREEKS ANALYSIS REPORT                             ║
+║         ETF: SPY                                                    ║
+║         Analysis Date: 2026-03-24                                  ║
+╚════════════════════════════════════════════════════════════════════╝
+
+PORTFOLIO GREEK EXPOSURES (Aggregate)
+───────────────────────────────────────────────────────────────────
+
+Delta (Δ)    Price Sensitivity
+  Value:          650.00
+  Meaning:   For every $1 move in SPY, portfolio changes by $650.00
+  Interpretation: Portfolio is long 650 delta equivalent
+
+Gamma (Γ)    Delta Acceleration  
+  Value:            6.25
+  Meaning:   Delta will increase by 6.25 per $1 move
+  Interpretation: Long gamma position - benefits from volatility
+
+Theta (Θ)    Time Decay
+  Value:         $-12.45
+  Meaning:   Portfolio loses $12.45 per day to time decay
+  Interpretation: Time working against option positions
+
+Vega (ν)     Volatility Sensitivity
+  Value:           210.50
+  Meaning:   For 1% vol increase, portfolio gains $210.50
+  Interpretation: Long volatility - benefits from IV expansion
+
+Rho (ρ)      Interest Rate Sensitivity
+  Value:          $45.30
+  Meaning:   For 1% rate increase, portfolio changes by $45.30
+  Interpretation: Moderate rate sensitivity
+
+GREEK VALIDATION RESULTS
+───────────────────────────────────────────────────────────────────
+Delta_Valid        : ✓ VALID
+Gamma_Valid        : ✓ VALID
+Theta_Valid        : ✓ VALID
+Vega_Valid         : ✓ VALID
+Rho_Valid          : ✓ VALID
+
+RISK SUMMARY
+───────────────────────────────────────────────────────────────────
+Net Directional Risk (Delta):     +650 (Bullish)
+Volatility Risk (Vega):           +$210 per 1% IV (Long vega)
+Time Decay Impact (Theta):        -$12.45 per day
+Rate Sensitivity (Rho):           +$45.30 per 1% rate
+
+RECOMMENDED ACTIONS:
+• Monitor delta exposure for market directional moves
+• Consider theta decay management if positions held through expiry
+• Vega positive - benefit from volatility spike

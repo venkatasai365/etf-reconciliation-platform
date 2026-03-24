@@ -1,0 +1,33 @@
+
+╔════════════════════════════════════════════════════════════════════╗
+║         SETTLEMENT STATUS REPORT                                    ║
+║         ETF: SPY                                                    ║
+║         Trade Date: 2026-03-24                                     ║
+╚════════════════════════════════════════════════════════════════════╝
+
+CREATE/REDEEM ACTIVITY SUMMARY
+───────────────────────────────────────────────────────────────────
+Transaction Type    | Count  | Basket Units  | Cash Component
+CREATE              |     3  |       120000  |       $3,000.20
+REDEEM              |     2  |        50000  |       $1,250.50
+
+DETAILED TRANSACTIONS
+───────────────────────────────────────────────────────────────────
+Transaction_Date Transaction_ID Transaction_Type ETF_Ticker Basket_Units AP_Name Cash_Component Settlement_Date
+     2026-03-24           CR001           CREATE        SPY        50000 Authorized_Participant_A      $1,250.50      2026-03-25
+     2026-03-24           CR002           CREATE        SPY        25000 Authorized_Participant_B        $625.25      2026-03-25
+     2026-03-24           RD001           REDEEM        SPY        30000 Authorized_Participant_A        $750.30      2026-03-25
+     2026-03-24           CR003           CREATE        SPY        45000 Authorized_Participant_C      $1,125.45      2026-03-25
+     2026-03-24           RD002           REDEEM        SPY        20000 Authorized_Participant_B        $500.20      2026-03-25
+
+SETTLEMENT SCHEDULE
+───────────────────────────────────────────────────────────────────
+T-Date (Trade Date):     2026-03-24
+T+0 (Same Day):          Awaiting execution confirmation
+T+1 (Settlement):        2026-03-25
+T+2 (Final Settlement):  2026-03-26
+
+NOTES:
+- All cash components within expected range (0.020 - 0.030 per unit)
+- No suspicious transactions flagged
+- Settlement on track for T+1

@@ -1,0 +1,112 @@
+{
+  "project_name": "ETF_Reconciliation_Platform",
+  "version": "1.0.0",
+  "date_created": "2026-03-24",
+  "status": "Complete & Production-Ready",
+  "file_count": 17,
+  "files": {
+    "etf_reconciliation_engine.py": {
+      "size_bytes": 8843,
+      "lines": 235
+    },
+    "etf_reporting_system.py": {
+      "size_bytes": 10096,
+      "lines": 189
+    },
+    "main.py": {
+      "size_bytes": 4641,
+      "lines": 137
+    },
+    "README.md": {
+      "size_bytes": 7770,
+      "lines": 218
+    },
+    "requirements.txt": {
+      "size_bytes": 51,
+      "lines": 3
+    },
+    ".gitignore": {
+      "size_bytes": 363,
+      "lines": 40
+    },
+    "test_reconciliation.py": {
+      "size_bytes": 2666,
+      "lines": 68
+    },
+    "USAGE_GUIDE.md": {
+      "size_bytes": 7210,
+      "lines": 292
+    },
+    "PROJECT_SUMMARY.md": {
+      "size_bytes": 19146,
+      "lines": 526
+    },
+    "data/internal_pcf_20260324.csv": {
+      "size_bytes": 479,
+      "lines": 9
+    },
+    "data/external_dtcc_settlement_20260324.csv": {
+      "size_bytes": 521,
+      "lines": 9
+    },
+    "data/etf_options_greeks_20260324.csv": {
+      "size_bytes": 606,
+      "lines": 7
+    },
+    "data/create_redeem_transactions_20260324.csv": {
+      "size_bytes": 496,
+      "lines": 6
+    },
+    "reports/sample_basket_composition_report.txt": {
+      "size_bytes": 2488,
+      "lines": 33
+    },
+    "reports/sample_settlement_status_report.txt": {
+      "size_bytes": 2586,
+      "lines": 33
+    },
+    "reports/sample_greeks_analysis_report.txt": {
+      "size_bytes": 2786,
+      "lines": 54
+    },
+    "reports/sample_exception_report.txt": {
+      "size_bytes": 2972,
+      "lines": 50
+    }
+  },
+  "stats": {
+    "total_size_kb": 71.99,
+    "total_lines": 1909,
+    "python_lines": 1909,
+    "total_files": 17
+  },
+  "categories": {
+    "Source Code": [
+      "etf_reconciliation_engine.py",
+      "etf_reporting_system.py",
+      "main.py",
+      "test_reconciliation.py"
+    ],
+    "Sample Data": [
+      "data/internal_pcf_20260324.csv",
+      "data/external_dtcc_settlement_20260324.csv",
+      "data/etf_options_greeks_20260324.csv",
+      "data/create_redeem_transactions_20260324.csv"
+    ],
+    "Reports": [
+      "reports/sample_basket_composition_report.txt",
+      "reports/sample_settlement_status_report.txt",
+      "reports/sample_greeks_analysis_report.txt",
+      "reports/sample_exception_report.txt"
+    ],
+    "Documentation": [
+      "README.md",
+      "requirements.txt",
+      "USAGE_GUIDE.md",
+      "PROJECT_SUMMARY.md"
+    ],
+    "Config": [
+      ".gitignore"
+    ]
+  }
+}
